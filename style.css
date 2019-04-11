@@ -1,0 +1,23 @@
+#root {
+  max-width: 100vw;
+  max-height: 100vh;
+  display: inline;
+  justify-content: center;
+}
+.letter {
+  border: solid 1px black;
+  max-height: 2em;
+  max-width: 1.3em;
+  justify-content: center;
+  display: inline-block;
+  font-size: 1em;
+  padding: .5em;
+  margin: 2px;
+}
+
+.row {
+  /* border: solid 1px pink; */
+  max-width: 100%;
+  display: inline-flex;
+  justify-content: center;
+}
